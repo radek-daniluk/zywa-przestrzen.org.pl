@@ -1,0 +1,65 @@
+$logo-font-size: 16px;
+.site-title{
+  line-height: 1.6em;
+  font-size: $logo-font-size * 2;
+  width: 100%;
+  text-align:center;
+  .text{animation: fadeIn 2.4s ease-in;}
+}
+
+.site-title.shrink{
+  font-size: $logo-font-size;
+  padding-right:10px;
+  width:auto;
+  #logowrap{width:100px;}
+  .logo0{opacity:1;transition: opacity 1s;}
+}
+
+@-webkit-keyframes fadeIn {
+	from {opacity:0;}
+	to {opacity:1}
+}
+
+#logowrap{text-align:center;margin:0 auto;}
+#logoback {position:relative;}
+#logoback>svg{-webkit-animation: fadeIn 2.3s;-webkit-animation-iteration-count: 1;}
+@keyframes fadeIn {0% {opacity:0;} 80% {opacity:0;} 100% {opacity: 1;}}
+
+#logoback [id^="logo"]{position:absolute; left:45%; top:35%;}
+#logo-a svg{width:100%;height:100%;display:block;}
+#logoback [id^="logo"] svg{position:absolute;}
+
+.logo0{opacity:0;}
+
+#logo3{
+  width:12.5%;
+  height:17.86%;
+  -webkit-animation: logo3 1.8s;-webkit-animation-iteration-count: 1;
+  transform: rotate(8.5deg)translate(-158%)rotate(-8.5deg);
+}
+@-webkit-keyframes logo3 {
+	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
+	to {transform: rotate(8.5deg)translate(-158%)rotate(-8.5deg)scale(1);}
+}
+
+#logo2{
+  width:18.5%;
+  height:26.43%;
+  -webkit-animation: logo2 1.8s;-webkit-animation-iteration-count: 1;
+  transform: rotate(140.5deg)translate(-161%)rotate(-140.5deg);
+}
+@-webkit-keyframes logo2 {
+	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
+	to {transform: rotate(140.5deg)translate(-161%)rotate(-140.5deg)scale(1);}
+}
+
+#logo1{
+  width:17.5%;
+  height:25.00%;
+  -webkit-animation: logo1 1.8s;-webkit-animation-iteration-count: 1;
+  transform: rotate(312deg)translate(-194%)rotate(-312deg);
+}
+@-webkit-keyframes logo1 {
+	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
+	to {transform: rotate(312deg)translate(-194%)rotate(-312deg)scale(1);}
+}

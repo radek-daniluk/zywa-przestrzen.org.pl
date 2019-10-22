@@ -1,11 +1,10 @@
+$green: #0f6a36;
+$blue: #3672bb;
+$red: #e01e25;
+
 .post-content{
   &>h2,&>h3{font-size: 20px;text-align:center;}
   li{margin-bottom:10px;}
-}
-.site-title{
-    font-size: 16px;
-    padding-right:10px;
-    &>img{width:100px;}
 }
 
 header.site-header{position:sticky;top:0;background-color:rgba(255,255,255,.9);}
