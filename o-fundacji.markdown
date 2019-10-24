@@ -6,10 +6,8 @@ permalink: /o-fundacji/
 
 Robimy nalepsze rzeczy wszędzie. Żadnych słabych. Wszystko na najwyższym poziomie. Kochamy drzewa, ptaki, ludzi najlepiej. Możesz o nas usłyszeć tu i tam.
 
-<!-- <div id="statut"> -->
-
 ## STATUT FUNDACJI „ŻYWA PRZESTRZEŃ”
-### (tekst jednolity z maja 2019 roku)
+### (tekst jednolity z 6 czerwca 2019 roku)
 ## Rozdział I
 ## POSTANOWIENIA OGÓLNE
 
@@ -18,7 +16,7 @@ Robimy nalepsze rzeczy wszędzie. Żadnych słabych. Wszystko na najwyższym poz
 
   1) Agatę Grzywińską;
 
-  zwaną dalej: **„Fundatorem”**, aktem notarialnym sporządzonym w dniu    roku, w .
+  zwaną dalej: **„Fundatorem”**, aktem notarialnym sporządzonym w dniu **6 czerwca 2019 roku, w Żurominie**.
 2. Niniejszy statut Fundacji jest zwany dalej **„Statutem”**.
 
 ### § 2
@@ -200,8 +198,6 @@ Zmiana statutu Fundacji, w tym i jej celów wymaga jednogłośnej uchwały Rady 
 2. przekazywaniu majątku Fundacji na rzecz członków Rady Fundacji, członków Zarządu Fundacji lub pracowników Fundacji oraz ich osób bliskich, na zasadach innych niż w stosunku do osób trzecich, w szczególności jeżeli przekazanie to następuje bezpłatnie lub na preferencyjnych warunkach,
 3. wykorzystywaniu majątku na rzecz członków Rady Fundacji, członków Zarządu Fundacji lub pracowników Fundacji oraz ich osób bliskich na zasadach innych niż w stosunku do osób trzecich, chyba że to wykorzystanie jest bezpośrednio związane z wykonywaniem zadań statutowych Fundacji,
 4. zakupie towarów lub usług od podmiotów, w których uczestniczą członkowie Rady Fundacji, członkowie Zarządu Fundacji, pracownicy Fundacji oraz ich osoby bliskie, na zasadach innych niż w stosunku do osób trzecich lub po cenach wyższych niż rynkowe
-
-<!-- </div> -->
 
 
 
