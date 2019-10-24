@@ -1,6 +1,6 @@
 $logo-font-size: 16px;
-.site-title{
-  line-height: 1.6em;
+#logo-a{
+  line-height: 1.4em;
   font-size: $logo-font-size * 2;
   width: 100%;
   text-align:center;
@@ -8,12 +8,13 @@ $logo-font-size: 16px;
   .text{animation: fadeIn 2.4s ease-in;}
 }
 
-.site-title.shrink{
+#logo-a.shrink{
   font-size: $logo-font-size;
   padding-right:10px;
   width:auto;
   #logowrap{width:100px;}
   .logo0{opacity:1;transition: opacity 1s;}
+  .text{animation: fadeIn .6s ease-out;}
 }
 
 @-webkit-keyframes fadeIn {
@@ -22,12 +23,12 @@ $logo-font-size: 16px;
 }
 
 #logowrap{text-align:center;margin:0 auto;}
-#logoback {position:relative;}
+#logoback {position:relative;max-height:80vh;display:inline-block;vertical-align:top;}
 #logoback>svg{-webkit-animation: fadeIn 2.3s;-webkit-animation-iteration-count: 1;}
 @keyframes fadeIn {0% {opacity:0;} 80% {opacity:0;} 100% {opacity: 1;}}
 
 #logoback [id^="logo"]{position:absolute; left:45%; top:35%;}
-#logo-a svg{width:100%;height:100%;display:block;}
+#logo-a svg{width:100%;height:100%;display:block;max-height:80vh;}
 #logoback [id^="logo"] svg{position:absolute;}
 
 .logo0{opacity:0;}
@@ -63,4 +64,35 @@ $logo-font-size: 16px;
 @-webkit-keyframes logo1 {
 	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
 	to {transform: rotate(312deg)translate(-194%)rotate(-312deg)scale(1);}
+}
+
+footer .u-email{letter-spacing:-1px;}
+
+@media screen and (max-height: 600px) {
+  .page-content{padding:5px 0;
+    .post-header{margin-bottom: 10px;}
+    h1{font-size:24px;}
+  }
+  #logo-a.shrink #logowrap{width:80px !important;}
+}
+@media screen and (max-height: 400px) {
+  #logo-a .text{font-size: $logo-font-size;}
+}
+
+@media screen and (max-height: 470px) {
+    #logo-a.shrink .text{display:none;}
+}
+
+@media screen and (max-height: 720px) {
+  body.facebook{
+    .footer-heading, .footer-col-3{display:none;}
+    footer{padding: 5px 0 0 0;}
+    .footer-col-wrapper{font-size:14px;}
+    .footer-col-1{padding-left:5px;margin-bottom:5px;}
+    .post-content{margin-bottom:0;}
+    .page-content{padding-bottom:0;}
+  }
+}
+@media screen and (max-width: 320px) {
+  body.facebook .page-content .wrapper{padding-right:7px;padding-left:7px;}
 }
