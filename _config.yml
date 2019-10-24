@@ -18,12 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fundacja Żywa Przestrzeń
+title: FUNDACJA ŻYWA PRZESTRZEŃ
 email: fundacja@zywa-przestrzen.org.pl
+phone: +48 730 084 213
 description: >- # this means to ignore newlines until "baseurl:"
   Piękny opis fundacji Żywa Przestrzeń.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zywa-przestrzen.org.pl/" # the base hostname & protocol for your site, e.g. http://example.com
+lang: pl_PL
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
