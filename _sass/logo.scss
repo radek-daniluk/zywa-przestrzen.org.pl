@@ -68,7 +68,7 @@ $logo-font-size: 16px;
 
 footer .u-email{letter-spacing:-1px;}
 
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 400px), (max-width: 330px)  {
   #logo-a .text{font-size: $logo-font-size;} // for not shrinked logo only
 }
 
@@ -83,7 +83,6 @@ footer .u-email{letter-spacing:-1px;}
 
 @media screen and (max-height: 740px) {
   body.facebook{
-    .footer-heading, .footer-col-3{display:none;}
     footer.site-footer{padding: 5px 0 0 0;}
     .footer-col-wrapper{font-size:14px;}
     .footer-col-1{padding-left:5px;margin-bottom:5px;}
@@ -98,7 +97,4 @@ footer .u-email{letter-spacing:-1px;}
 }
 @media screen and (max-width: 320px) {
   body.facebook .page-content .wrapper{padding-right:7px;padding-left:7px;}
-}
-@media screen and (max-width: 800px) {
-  body.facebook .footer-col-3{display:none;}
 }

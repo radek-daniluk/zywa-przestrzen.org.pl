@@ -10,11 +10,11 @@ h1,h2,h3,h4,h5,h6,header,footer{
 header.site-header{position:sticky;top:0;background-color:rgba(255,255,255,.9);
   z-index:10;
   border-top: 0;border-bottom: 5px solid;
-  border-image: linear-gradient(to right, $blue 33%, $green 33%, $green 67%, $red 67%) 5;
+  border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
 }
 
 footer.site-footer{border-top: 5px solid;
-  border-image: linear-gradient(to right, $blue 33%, $green 33%, $green 67%, $red 67%) 5;
+  border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
 }
 
 a{color: $blue;}
@@ -52,6 +52,12 @@ a:visited{color:$green;}
   }
 }
 
-.page-contact{font-family: $brand-font-family;}
+.page-contact{
+  font-family: $brand-font-family;
+  ul{list-style:none;margin-left:0;}
+  table,td{border:0;}
+  table tr:nth-child(even) {background-color: $background-color;}
+  td{padding:10px 3px;}
+}
 
 .site-nav a.active{text-decoration:underline;}

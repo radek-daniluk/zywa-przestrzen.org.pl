@@ -7,7 +7,7 @@ permalink: /statut/
 Skan statutu do pobrania: [<span class="icon-file-pdf">pobierz</span>]({{ site.url }}/assets/statut.pdf)
 
 
-## STATUT FUNDACJI „ŻYWA PRZESTRZEŃ”
+## STATUT FUNDACJI „ŻYWA PRZESTRZEŃ”
 ### (tekst jednolity z 6 czerwca 2019 roku)
 ## Rozdział I
 ## POSTANOWIENIA OGÓLNE
