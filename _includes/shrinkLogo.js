@@ -3,7 +3,7 @@ var logowrap = document.getElementById('logowrap');
 var shrinked = false;
 var shrinkedWidth = '100px';
 
-document.body.onload = function() {init()};
+window.addEventListener("load", init, true);
 
 function init() {
   if(document.scrollingElement.scrollTop > 10){

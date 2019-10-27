@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FUNDACJA ŻYWA PRZESTRZEŃ
+title: FUNDACJA ŻYWA PRZESTRZEŃ
 email: fundacja@zywa-przestrzen.org.pl
 phone: +48 730 084 213
 description: >- # this means to ignore newlines until "baseurl:"

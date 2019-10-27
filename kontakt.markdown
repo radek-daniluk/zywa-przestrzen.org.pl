@@ -6,8 +6,8 @@ permalink: /kontakt/
 #### Napisz do nas
 
 
-* [{{ site.email }}](mailto:{{ site.email }})
-* [{{ site.phone }}](tel:{{ site.phone | remove:" " | remove:"-" | remove:"(" | remove:")" }})
+* [<span class="icon-mail">{{ site.email }}</span>](mailto:{{ site.email }})
+* [<span class="icon-phone">{{ site.phone }}</span>](tel:{{ site.phone | remove:" " | remove:"-" | remove:"(" | remove:")" }})
 
 ### FUNDACJA "ŻYWA PRZESTRZEŃ"
 
