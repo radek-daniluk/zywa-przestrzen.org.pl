@@ -20,3 +20,6 @@ permalink: /kontakt/
 |Województwo  | lubelskie |
 
 |<span class="icon-location">Oddział</span>       | 09-300 Żuromin |
+|Gmina        | Żuromin |
+|Powiat       | żuromiński |
+|Województwo  | mazowieckie |

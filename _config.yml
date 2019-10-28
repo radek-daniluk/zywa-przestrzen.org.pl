@@ -22,11 +22,11 @@ title: FUNDACJA ŻYWA PRZESTRZEŃ
 email: fundacja@zywa-przestrzen.org.pl
 phone: +48 730 084 213
 description: >- # this means to ignore newlines until "baseurl:"
-  Piękny opis fundacji Żywa Przestrzeń.
+  Fundacja „Żywa Przestrzeń” to organizacja pozarządowa składająca się z osób zaangażowanych społecznie w regionie Żuromina i okolic (Północne Mazowsze) oraz na terenie Gminy Leśniowice (Lubelszczyzna - 40 km od granicy z Ukrainą). Działania jakie można przypisać członkom grupy to szeroko pojęta animacja kultury, aktywizacja lokalnej społeczności, realizacja projektów służących mieszkańcom i przestrzeni, zwłaszcza tej zielonej. Podejmujemy się również projektów na rzecz ekonomii społecznej i tworzenia społeczeństwa obywatelskiego.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zywa-przestrzen.org.pl/" # the base hostname & protocol for your site, e.g. http://example.com
-lang: pl_PL
-include: ["_pages"]
+url: "https://zywa-przestrzen.org.pl/" # the base hostname & protocol for your site, e.g. http://example.com
+lang: pl-PL
+include: ["_pages",".htaccess"]
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -36,10 +36,9 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.markdown
   - _pages/aktualnosci.markdown
-  - _pages/przyjaciele.markdown
   - _pages/statut.markdown
+  - _pages/przyjaciele.markdown
   - _pages/kontakt.markdown
 
 # Exclude from processing.
