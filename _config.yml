@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zywa-przestrzen.org.pl/" # the base hostname & protocol for your site, e.g. http://example.com
 lang: pl_PL
+include: ["_pages"]
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -36,10 +37,10 @@ plugins:
 
 header_pages:
   - index.markdown
-  - aktualnosci.markdown
-  - przyjaciele.markdown
-  - statut.markdown
-  - kontakt.markdown
+  - _pages/aktualnosci.markdown
+  - _pages/przyjaciele.markdown
+  - _pages/statut.markdown
+  - _pages/kontakt.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
