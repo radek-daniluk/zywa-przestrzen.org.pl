@@ -7,7 +7,7 @@ permalink: /kontakt/
 * [<span class="icon-mail"> {{ site.email }}</span>](mailto:{{ site.email }})
 * [<span class="icon-phone">{{ site.phone }}</span>](tel:{{ site.phone | remove:" " | remove:"-" | remove:"(" | remove:")" }})
 
-### FUNDACJA "ŻYWA PRZESTRZEŃ"
+### FUNDACJA „ŻYWA PRZESTRZEŃ"
 
 |KRS   |  0000791781    |
 |NIP   | 5632438673     |
