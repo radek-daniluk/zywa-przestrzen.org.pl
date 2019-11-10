@@ -6,7 +6,7 @@ var shrinkedWidth = '100px';
 window.addEventListener("load", init, true);
 
 function init() {
-  if(document.scrollingElement.scrollTop > 10){
+  if(document.scrollingElement != undefined && document.scrollingElement.scrollTop > 10){
     shrinked = true;
     setShrinkClass();
   } else {
@@ -27,12 +27,8 @@ function shrinkLogo() {
   if(shrinked === false) {
     shrinked = true;
     logowrap.style.width = getComputedStyle(logowrap).width;
-    logowrap.style.transition = 'width ' + logoTransitionTime;
-    logowrap.offsetWidth; //force repaint
-
-    logo.style.transition = 'all ' + logoTransitionTime;
     setShrinkClass();
-
+    logowrap.offsetWidth; //force repaint
     logowrap.style.width = shrinkedWidth;
   }
 }

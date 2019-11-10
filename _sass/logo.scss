@@ -1,84 +1,115 @@
+@mixin display-flex($direction, $align-items){
+  -moz-display:flex;
+  -webkit-display:flex;
+  -ms-display:flex;
+  display:flex;
+
+  -moz-flex-direction:$direction;
+  -webkit-flex-direction:$direction;
+  -ms-flex-direction:$direction;
+  flex-direction:$direction;
+
+  -moz-align-items:$align-items;
+  -webkit-align-items:$align-items;
+  -ms-align-items:$align-items;
+  align-items:$align-items;
+}
+@mixin width-transition($duration){
+  -webkit-transition-duration: $duration;
+  transition-duration: $duration;
+  -webkit-transition-property:width,max-width;
+  transition-property:width,max-width;
+}
 $logo-font-size: 16px;
+$logo-transiton-duration: 0.8s;
+
 #logo-a{
-  line-height: 1.4em;
-  font-size: $logo-font-size * 2;
+  @include display-flex(column, center);
   width: 100%;
+  max-width:740px; // TODO
+  @include width-transition($logo-transiton-duration);
+
   text-align:center;
+  font-size: $logo-font-size * 2;
+  line-height: 1.4em;
   &:hover{text-decoration:none;}
-  .text{animation: fadeIn 2.4s ease-in;}
+  .text{-webkit-animation: fadeIn 2.4s ease-in;animation: fadeIn 2.4s ease-in;}
 }
-
-#logo-a.shrink{
-  font-size: $logo-font-size;
-  padding-right:10px;
-  width:auto;
-  #logowrap{width:100px;}
-  .logo0{opacity:1;transition: opacity 1s;}
-  .text{animation: fadeIn .6s ease-out;}
-}
-
-@-webkit-keyframes fadeIn {
-	from {opacity:0;}
-	to {opacity:1}
-}
-
-#logowrap{text-align:center;margin:0 auto;}
-#logoback {position:relative;max-height:80vh;display:inline-block;vertical-align:top;}
-#logoback>img{-webkit-animation: fadeIn 2.3s;-webkit-animation-iteration-count: 1;max-height:80vh;display:block;}
 @keyframes fadeIn {0% {opacity:0;} 80% {opacity:0;} 100% {opacity: 1;}}
-
-#logoback [id^="logo"]{position:absolute; left:45%; top:35%;}
-#logo-a svg{width:100%;height:100%;display:block;max-height:80vh;}
-#logoback [id^="logo"] svg{position:absolute;}
-
-.logo0{opacity:0;}
-
-#logo3{
-  width:12.5%;
-  height:17.86%;
-  -webkit-animation: logo3 1.8s;-webkit-animation-iteration-count: 1;
-  transform: rotate(8.5deg)translate(-158%)rotate(-8.5deg);
-}
-@-webkit-keyframes logo3 {
-	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
-	to {transform: rotate(8.5deg)translate(-158%)rotate(-8.5deg)scale(1);}
-}
-
-#logo2{
-  width:18.5%;
-  height:26.43%;
-  -webkit-animation: logo2 1.8s;-webkit-animation-iteration-count: 1;
-  transform: rotate(140.5deg)translate(-161%)rotate(-140.5deg);
-}
-@-webkit-keyframes logo2 {
-	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
-	to {transform: rotate(140.5deg)translate(-161%)rotate(-140.5deg)scale(1);}
-}
-
-#logo1{
-  width:17.5%;
-  height:25.00%;
-  -webkit-animation: logo1 1.8s;-webkit-animation-iteration-count: 1;
-  transform: rotate(312deg)translate(-194%)rotate(-312deg);
-}
-@-webkit-keyframes logo1 {
-	from {transform: rotate(800deg) translate(-0px) rotate(-800deg) scale(0.1);}
-	to {transform: rotate(312deg)translate(-194%)rotate(-312deg)scale(1);}
-}
-
-footer .u-email{letter-spacing:-1px;}
 
 @media screen and (max-height: 400px), screen and (max-width: 330px)  {
   #logo-a {font-size: $logo-font-size;} // for not shrinked logo only
 }
+
+#logo-a.shrink{
+  max-width:15.5em;
+  font-size: $logo-font-size;
+  padding-right:10px;
+
+  #logowrap{width:100px;}
+  .logo0{opacity:1;transition: opacity 1s;}
+  .text{-webkit-animation: fadeIn .6s ease-out;animation: fadeIn .6s ease-out;}
+}
+
+
+$max-logo-height: 80vh;
+$logo-aspect-ratio: 1.42843; // viewBox 1477x1034
+$max-logo-width: $max-logo-height*$logo-aspect-ratio;
+#logowrap {
+  @include width-transition($logo-transiton-duration);
+  position:relative;
+  // margin:0 auto;
+  width:100%;
+  // height:100%;
+  max-width:$max-logo-width; // in fact it adjusts height preserving aspect ratio
+  svg{display:block;}
+  svg.logoback{-webkit-animation: fadeIn 2.3s;animation: fadeIn 2.3s;}
+  &>div{position:absolute;top:35%;left:45%; // div.logo1,2,3
+    svg{width:100%; height:100%;}
+    svg.logo0{position:absolute;top:0;left:0;}
+  }
+}
+
+.logo0{opacity:0;}
+
+@mixin logo-elt-anim($name, $width, $height, $rotate-end, $translate-end){
+  $rotate-from:800deg;
+  $animation-duration:1.8s;
+
+  .#{$name}{
+    width:$width;
+    height:$height;
+    -moz-animation: #{$name} $animation-duration;
+    -webkit-animation: #{$name} $animation-duration;
+    animation: #{$name} $animation-duration;
+    -o-transform: rotate($rotate-end)translate($translate-end)rotate(-$rotate-end);
+    -moz-transform: rotate($rotate-end)translate($translate-end)rotate(-$rotate-end);
+    -ms-transform: rotate($rotate-end)translate($translate-end)rotate(-$rotate-end);
+    transform: rotate($rotate-end)translate($translate-end)rotate(-$rotate-end);
+  }
+  @keyframes #{$name} {
+  	from {transform: rotate($rotate-from) translate(0) rotate(-$rotate-from) scale(0.1);}
+  	to {transform: rotate($rotate-end)translate($translate-end)rotate(-$rotate-end)scale(1);}
+  }
+}
+
+@include logo-elt-anim(logo1, 17.5%, 25.00%, 312deg, -194%);
+@include logo-elt-anim(logo2, 18.5%, 26.43%, 140.5deg, -161%);
+@include logo-elt-anim(logo3, 12.5%, 17.86%, 8.5deg, -158%);
+
+footer .u-email{letter-spacing:-1px;}
 
 @media screen and (max-height: 500px) {
   body.facebook footer.site-footer{display:none;}
 }
 
 @media screen and (max-height: 600px) {
-  body.facebook{#logo-a.shrink .text, .footer-col-3{display:none;} }
-  #logo-a.shrink #logowrap{width:80px !important;}
+  $mini-logo-width:80px;
+  body.facebook{
+    #logo-a.shrink{max-width:$mini-logo-width;}
+    #logo-a.shrink .text, .footer-col-3{display:none;}
+  }
+  #logo-a.shrink #logowrap{width:$mini-logo-width !important;}
 }
 
 @media screen and (max-height: 740px) {

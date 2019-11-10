@@ -107,8 +107,8 @@ function getShrinkedHeaderHeight(viewportHeight, viewportWidth) {
   var titleSecondLineHeight = (viewportWidth<250) ? 23 : 0;
   switch(true) {
     case(viewportHeight <= 600):
-      return 61; //56+5
+      return 62; //57+5
     default: // >600px
-      return 97 + titleSecondLineHeight; //92+5
+      return 98 + titleSecondLineHeight; //93+5
     }
 }

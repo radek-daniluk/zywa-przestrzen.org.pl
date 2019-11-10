@@ -1,9 +1,9 @@
 <header class="site-header" role="banner">
-
+  {% include logo-defs.svg %}
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a id="logo-a" class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    <a id="logo-a" class="site-title" rel="author" href="{{ "/" | relative_url }}" title='{{ site.title | escape }}'>
       {% include logo.html %}
       <span class="text">{{ site.title | escape }}</span>
     </a>
