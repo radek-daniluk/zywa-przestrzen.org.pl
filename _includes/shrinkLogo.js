@@ -1,16 +1,17 @@
 var logo = document.getElementById('logo-a');
 var logowrap = document.getElementById('logowrap');
+var parallax = document.getElementById('parallax-main')
 var shrinked = false;
 var shrinkedWidth = '100px';
 
 window.addEventListener("load", init, true);
 
 function init() {
-  if(document.scrollingElement != undefined && document.scrollingElement.scrollTop > 10){
+  if(parallax.scrollingElement != undefined && parallax.scrollingElement.scrollTop > 0){
     shrinked = true;
     setShrinkClass();
   } else {
-    window.onscroll = function() {shrinkLogo()};
+    parallax.addEventListener('scroll', shrinkLogo);
   }
 }
 

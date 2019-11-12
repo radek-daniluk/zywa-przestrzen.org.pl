@@ -3,18 +3,29 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body{% if page.layout == 'page-facebook' %} class='facebook'{% endif %}>
+    {% if page.layout == 'page-facebook' %}
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/all.js#xfbml=1&version=v4.0&appId=574839779927509&autoLogAppEvents=1"></script>
+    {% endif %}
+    <div class='parallax absolute-container' id='parallax-main'>
+      <div class='parallax-layer parallax-base body-replacement'>
+        {%- include header.html -%}
 
-    {%- include header.html -%}
+        <main class="page-content" aria-label="Content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </main>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+        {%- include footer.html -%}
       </div>
-    </main>
-
-    {%- include footer.html -%}
-
+      
+    </div>
+    {% if page.layout == 'page-facebook' %}
+      <script src="/assets/loadFacebook.js"></script>
+    {% endif %}
+    <script src="/assets/addBackgroundSprites.js"></script>
   </body>
 
 </html>
