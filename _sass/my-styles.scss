@@ -11,11 +11,15 @@ header.site-header{position:-webkit-sticky;position:sticky;top:0;background-colo
   z-index:10;
   border-top: 0;border-bottom: 5px solid;
   border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
+  box-shadow:0 0 10px 1px #888;
 }
 
-footer.site-footer{border-top: 5px solid;
+footer.site-footer{border-top: 5px solid;border-bottom: 5px solid;
   border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
+  background:rgba(253,253,253,0.9);
+  box-shadow:0 0 10px 1px #888;
 }
+.facebook footer.site-foter{border-bottom:none;}
 
 a{color: $blue;}
 a:visited{color:$green;}
@@ -61,3 +65,5 @@ a:visited{color:$green;}
 }
 
 .site-nav a.active{text-decoration:underline;}
+
+::selection{color:#fff;background:$green;}

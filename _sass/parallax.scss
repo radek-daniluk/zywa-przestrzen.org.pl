@@ -18,13 +18,17 @@
 .parallax-base {
   transform: translateZ(0);
 }
-div[class^='parallax-back'], div[class*=' parallax-back'] {
+[class^='parallax-back'], [class*=' parallax-back'] {
   transform: translateZ(-1px) scale(2);
-  z-index:-1;
-  bottom:auto;right:auto;
+  z-index:-10;
 }
 
-
+.sprite-d{
+  bottom:auto;right:auto;left:auto;top:auto;
+  width:100%;
+  max-width:600px; // be consistent with `maxSpriteHeight` from addBackgroundSprites.js
+  use {fill:#666;}
+}
 
 .body-replacement{
   display:flex;
@@ -35,4 +39,12 @@ div[class^='parallax-back'], div[class*=' parallax-back'] {
 .site-header{min-height:auto;}
 html{overflow:hidden;}
 
-.page-content{background:rgba(255,255,255,0.8);}
+.post{
+  background:rgba(253,253,253,0.9);
+  box-shadow:0 0 20px 20px rgba(253,253,253,0.9);
+  padding-bottom:30px;
+}
+.facebook .post{
+  box-shadow:none;background:none;
+}
+.page-content{padding-bottom:0;}
