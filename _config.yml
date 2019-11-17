@@ -39,7 +39,10 @@ header_pages:
   - _pages/aktualnosci.markdown
   - _pages/statut.markdown
   - _pages/przyjaciele.markdown
+  - _pages/archiwum.markdown
   - _pages/kontakt.markdown
+
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
