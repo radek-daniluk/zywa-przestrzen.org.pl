@@ -33,7 +33,7 @@ function addSprites() {
   var envelopeHeight = main.offsetHeight + footer.offsetHeight;
   var spriteHeight = Math.min(parallaxDiv.offsetWidth,600);
 
-  var topMargin = 180;
+  var topMargin = 580;
   var space = 0;
   var step = spriteHeight + space;
 
@@ -63,7 +63,7 @@ function addSprite(innerHtml, top, count) {
   // var isOddInSide = (count>>1)%2
   var side = isOdd ? 'right:' : 'left:';
   var perspective = - (Math.random()*2 + 1);
-  var sidePosition = -150 + main.offsetWidth/30 +(perspective+1)*10; //Math.random()*(-80);
+  var sidePosition = -300 + Math.min(300, main.offsetWidth/10) +(perspective+1)*10; //Math.random()*(-80);
   var zIndex = Math.floor(perspective*100);
   // console.log('newSprite: top=' + top + ' ' + side + sidePosition  + ' perspective=' + perspective );
 
