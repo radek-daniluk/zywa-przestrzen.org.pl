@@ -70,7 +70,8 @@ a:visited{color:$green;}
 
 $light-grey: #666;
 $dark-grey: #333;
-.post-head-img{display:block;margin: 20px auto; margin-bottom:20px;border:10px solid $dark-grey;}
+.post-head-img{display:block;box-sizing:border-box;margin:20px auto;margin-bottom:20px;border:10px solid $dark-grey;
+  max-height:80vh;}
 
 .img-circle{border-radius:50%;object-fit:cover;}
 

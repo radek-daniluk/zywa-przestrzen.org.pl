@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zywa-przestrzen.org.pl/" # the base hostname & protocol for your site, e.g. http://example.com
 lang: pl-PL
 include: ["_pages",".htaccess"]
+exclude: ['.material']
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
