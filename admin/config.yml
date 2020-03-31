@@ -15,7 +15,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Archived", name: "archiwum", widget: "boolean", default: "false"}
-      - {label: "Categories", name: "categories", widget: "list", default: ["ekologia"]}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - label: Categories
+        name: categories
+        widget: list
+        default: ['ekologia']
       - {label: "Head Image", name: "head-image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
