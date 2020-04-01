@@ -14,10 +14,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Archived", name: "archiwum", widget: "boolean", default: "false"}
-      - label: Categories
-        name: categories
-        widget: list
-        default: ['ekologia']
+      - {label: "Archived", name: "archive", widget: "boolean", default: false}
+      - {label: "Categories", name: "categories", widget: list, default: ['ekologia']}
       - {label: "Head Image", name: "head-image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}

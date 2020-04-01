@@ -3,7 +3,7 @@ layout: page
 title: Archiwum
 permalink: /archiwum/
 ---
-{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%b %Y'"  %}
+{% assign postsByYearMonth = site.posts | where:"archive",true | group_by_exp:"post", "post.date | date: '%b %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
 
   {% assign m = yearMonth.name | date: "%-m" %}
