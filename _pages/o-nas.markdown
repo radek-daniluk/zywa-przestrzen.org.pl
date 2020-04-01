@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'O nas'
+title: 'O nas'
 permalink: /o-nas/
 ---
 

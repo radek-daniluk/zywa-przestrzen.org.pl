@@ -24,7 +24,7 @@ permalink: /archiwum/
     {{ yearMonth.name | date: "%Y" }}</h3>
   <ul class='archive-month-list'>
       {% for post in yearMonth.items %}
-        <li class='archive-item'><a class='archive-item-link' href="{{ post.url | relative_url }}"><img class='archive-thumb-img img-circle' src='{{ post.head-image | default: '/apple-touch-icon.png' | relative_url }}' alt='{{ post.title }}'>{{ post.title }}</a></li>
+        <li class='archive-item item'><a class='archive-item-link item-link' href="{{ post.url | relative_url }}"><img class='archive thumb-img img-circle' src='{{ post.head-image | default: '/apple-touch-icon.png' | relative_url }}' alt='{{ post.title }}'>{{ post.title }}</a></li>
       {% endfor %}
   </ul>
 {% endfor %}
