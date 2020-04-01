@@ -2,6 +2,7 @@
 layout: post
 title:  'Warsztaty chustonoszenia'
 date: 2019-10-17T12:00:00.000Z
+archiwum: true
 categories: archiwum
 head-image: '/assets/chustonoszenie-warsztaty.jpg'
 ---
