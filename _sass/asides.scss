@@ -1,0 +1,39 @@
+
+$breakpoint-width: 1000px;
+
+main.page-content{
+  // align-items:flex-start;
+  @media screen and (min-width: $breakpoint-width){
+    display:flex;
+  }
+  div.wrapper{
+    order:20;
+    flex: 1 1 540px;
+  }
+}
+
+aside.menu{
+  flex: 0 0 200px;
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+aside.menu.categories{order:10;padding:1rem;}
+aside.menu.takie-tam{order:30;
+  .takie{
+    display:block;
+    flex: 0 1 160px;
+    padding:5px;
+    margin:1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 6px 6px rgba(0,0,0,0.4);
+    border: 1px solid #aaa;
+    background: rgba(255,255,255,0.7);
+    &:before{content:"REKLAMA";display:block;text-align:center;color:#aaa;font-size:11px;padding-bottom:1em;}
+  }
+  .takie-1{height: 200px;}
+  .takie-2{height: 300px;}
+}
