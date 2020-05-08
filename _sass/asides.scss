@@ -2,7 +2,6 @@
 $breakpoint-width: 1000px;
 
 main.page-content{
-  // align-items:flex-start;
   @media screen and (min-width: $breakpoint-width){
     display:flex;
   }
@@ -37,3 +36,10 @@ aside.menu.takie-tam{order:30;
   .takie-1{height: 200px;}
   .takie-2{height: 300px;}
 }
+
+
+// Pagination navs: older newer
+
+.pagination{list-style:none;}
+.pagination-older{float:left;}
+.pagination-newer{float:right;}

@@ -23,22 +23,31 @@
         </label>
 
         <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
 
-            {%- if my_page.url == page.url -%}
+          {%- assign index_page = site.pages | where: "url", "/index.html" | first -%}
+
+          {%- for path in page_paths -%}
+            {%- assign temp_page = site.pages | where: "path", path | first | default: index_page -%}
+
+            {%- if temp_page.url == page.url -%}
               {%- assign active_class = " active" -%}
             {%- else -%}
               {%- assign active_class = "" -%}
             {%- endif -%}
 
-            {%- if my_page.title-menu -%}
-              {%- assign menu-item = my_page.title-menu -%}
-            {%- elsif my_page.title -%}
-              {%- assign menu-item = my_page.title -%}
+            {%- if temp_page.title-menu -%}
+              {%- assign menu_item_name = temp_page.title-menu -%}
+            {%- elsif temp_page.title -%}
+              {%- assign menu_item_name = temp_page.title -%}
             {%- endif -%}
-            {%- if menu-item -%}
-            <a class="page-link{{ active_class}}" href="{{ my_page.url | relative_url }}">{{ menu-item | escape }}</a>
+
+            {%- assign menu_item_url = site.url -%}
+            {%- if temp_page.url != "/index.html" -%}
+              {%- assign menu_item_url = temp_page.url -%}
+            {%- endif -%}
+
+            {%- if menu_item_name -%}
+            <a class="page-link{{ active_class}}" href="{{ menu_item_url | relative_url }}">{{ menu_item_name | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
