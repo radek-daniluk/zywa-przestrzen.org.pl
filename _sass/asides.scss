@@ -20,7 +20,7 @@ aside.menu{
   align-items: flex-start;
 }
 
-aside.menu.categories{order:10;padding:1rem;}
+aside.menu.categories{order:10;padding:1rem;display:block;}
 aside.menu.takie-tam{order:30;
   .takie{
     display:block;
@@ -36,6 +36,20 @@ aside.menu.takie-tam{order:30;
   .takie-1{height: 200px;}
   .takie-2{height: 300px;}
 }
+
+.menu-item{position:relative;
+  &>a{position:absolute;left:0;right:0;top:0;bottom:0;}
+}
+.menu-item-icon{width:40px;transition: 0.25s all ease;}
+.menu-item:hover .menu-item-icon{width:80px;}
+.menu.categories ul{list-style:none;margin:0;
+  li{
+    margin: 10px 0;
+  }
+}
+.menu-item.rodzina {color: $red;}
+.menu-item.ekologia {color: $green;}
+.menu-item.idee {color: $blue;}
 
 
 // Pagination navs: older newer
