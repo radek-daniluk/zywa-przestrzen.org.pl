@@ -6,7 +6,7 @@ permalink: /o-nas/
 
 Kolebką Fundacji „Żywa Przestrzeń” jest Lubelszczyzna i Gmina Leśniowice, obecnie organizacja ze względu na przeprowadzkę prezesa Fundacji rozszerzyła swoja działalność na Północne Mazowsze i&nbsp;Działdowszczyznę. Od dawna nosiliśmy się z zamiarem zaistnienia w sieci, a&nbsp;obecna sytuacja daje ku&nbsp;temu dodatkową motywację. Witryna internetowa Fundacji Żywa Przestrzeń jest źródłem pozytywnej informacji. Chcemy inspirować, intrygować i przywoływać uśmiech na twarz poprzez słowo i&nbsp;dźwięk, a&nbsp;więc posty i&nbsp;podcasty.
 
-Celami Fundacji Żywa Przestrzeń są: ekologia, wspieranie wszystkich przejawów pozytywnego spojrzenia na świat, szeroko pojęta animacja kultury, aktywizacja lokalnych społeczności, realizacja projektów służących człowiekowi i przestrzeni, zwłaszcza tej zielonej. Co robimy i chcemy robić? Oto kilka najważniejszych działań jakie podejmuje i chce podejmować Fundacja (szczegółowe cele i sposoby ich realizacji można znaleźć w [statucie]({{ site.url | relative_url }}/statut/))):
+Celami Fundacji Żywa Przestrzeń są: ekologia, wspieranie wszystkich przejawów pozytywnego spojrzenia na świat, szeroko pojęta animacja kultury, aktywizacja lokalnych społeczności, realizacja projektów służących człowiekowi i przestrzeni, zwłaszcza tej zielonej. Co robimy i chcemy robić? Oto kilka najważniejszych działań jakie podejmuje i chce podejmować Fundacja (szczegółowe cele i sposoby ich realizacji można znaleźć w [statucie](/statut/)):
 - Wypracować i promować model życia w zgodzie z przyrodą
 - Realizować projekty prośrodowiskowe
 - Wzmacniać potencjał społeczności lokalnych

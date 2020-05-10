@@ -4,7 +4,7 @@ title: Statut
 permalink: /statut/
 ---
 
-Skan statutu do pobrania: [<span class="icon-file-pdf">pobierz</span>]({{ site.url | relative_url }}/assets/statut.pdf)
+Skan statutu do pobrania: [<span class="icon-file-pdf">pobierz</span>](/assets/statut.pdf)
 
 
 ## STATUT FUNDACJI „ŻYWA PRZESTRZEŃ”
