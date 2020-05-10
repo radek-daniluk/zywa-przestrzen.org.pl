@@ -41,7 +41,7 @@
               {%- assign menu_item_name = temp_page.title -%}
             {%- endif -%}
 
-            {%- assign menu_item_url = site.url -%}
+            {%- assign menu_item_url = site.url | relative_url -%}
             {%- if temp_page.url != "/index.html" -%}
               {%- assign menu_item_url = temp_page.url -%}
             {%- endif -%}
