@@ -14,13 +14,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Archived", name: "archive", widget: "boolean", default: false}
-      - {label: "Project", name: "project", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tags", name: "tags", widget: "list", default: ['rodzina, przyroda, idee']}
-      - {label: "Head Image", name: "head-image", widget: "image"}
+      - {label: "Archived", name: "archive", widget: "boolean", default: false, required: false}
+      - {label: "Project", name: "project", widget: "boolean", default: true, required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", default: ['rodzina, przyroda, idee'], required: false}
+      - {label: "Head Image", name: "head-image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Excerpt separator, kurła!", name: 'excerpt_separator', widget: "string", default:'<!--more-->'}
+      - {label: "Excerpt separator, kurła!", name: 'excerpt_separator', widget: "string", default:'<!--more-->', required: false}
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored
@@ -29,5 +29,4 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: {{slug}}}
       - {label: "Body", name: "body", widget: "markdown"}
