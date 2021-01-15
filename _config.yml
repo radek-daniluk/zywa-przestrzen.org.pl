@@ -39,10 +39,8 @@ plugins:
 header_pages:
   - index.html
   - _pages/aktualnosci.markdown
+  - _pages/projekty.markdown
   - _pages/o-nas.markdown
-  - _pages/statut.markdown
-  - _pages/przyjaciele.markdown
-  - _pages/archiwum.markdown
   - _pages/kontakt.markdown
 
 future: true
