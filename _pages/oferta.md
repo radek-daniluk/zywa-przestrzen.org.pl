@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Oferta
-title-menu: Oferta
+permalink: /oferta/
 ---
 Tutaj można edytować treść strony oferta, Jeśli dodasz nową stronę to niestety, ale nie doda się ona do górnego menu strony.
 

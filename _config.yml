@@ -41,6 +41,7 @@ header_pages:
   - _pages/aktualnosci.markdown
   - _pages/projekty.markdown
   - _pages/o-nas.markdown
+  - _pages/oferta.md
   - _pages/kontakt.markdown
 
 future: true
