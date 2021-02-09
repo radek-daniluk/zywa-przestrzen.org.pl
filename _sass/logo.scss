@@ -37,7 +37,9 @@ $logo-transiton-duration: 0.8s;
   padding-right:10px;
   width:110px;
 
-  #logowrap{width:100px;}
+  #logowrap{width:100px;
+    div.logoname{opacity:0;transition: opacity 1s;}
+  }
   .logo0{opacity:1;transition: opacity 1s;}
 }
 
@@ -59,11 +61,10 @@ $max-logo-width: $max-logo-height*$logo-aspect-ratio;
     svg.logo0{position:absolute;top:0;left:0;}
   }
   &>div.logoname{top:auto; left:auto;
-    right:1%; bottom:-25%; // 18%/70%
-    width:50%;height:73%;
+    right:6%; bottom:-1%;
+    width:35%;height:53%;
     -webkit-animation: fadeIn 2.4s ease-in;animation: fadeIn 2.4s ease-in;
   }
-  margin-bottom:18%;
 }
 
 .logo0{opacity:0;}
