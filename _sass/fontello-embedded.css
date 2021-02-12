@@ -62,3 +62,9 @@
 .icon-up:before { content: '\e803'; } /* '' */
 .icon-mail:before { content: '\f0e0'; } /* '' */
 .icon-file-pdf:before { content: '\f1c1'; } /* '' */
+
+.page-link.icon-title{
+  font-family: "fontello";
+  font-size: 1.2em;
+  padding-bottom:2.5px; //adjust to menu font-size:
+}

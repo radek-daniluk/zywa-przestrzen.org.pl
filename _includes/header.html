@@ -45,8 +45,14 @@
               {%- assign menu_item_url = temp_page.url -%}
             {%- endif -%}
 
+            {%- assign icon_class = "" -%}
+            {%- if menu_item_name == "Główna" -%}
+              {%- assign icon_class = " icon-title" -%}
+              {%- assign menu_item_name = "" -%}
+            {%- endif -%}
+
             {%- if menu_item_name -%}
-            <a class="page-link{{ active_class}}" href="{{ menu_item_url | relative_url }}">{{ menu_item_name | escape }}</a>
+              <a class="page-link{{ active_class}} {{ icon_class}}" href="{{ menu_item_url | relative_url }}">{{ menu_item_name | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>

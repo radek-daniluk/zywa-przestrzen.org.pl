@@ -64,7 +64,10 @@ a:visited{color:$green;}
   td{padding:10px 3px;}
 }
 
-.site-nav a.active{text-decoration:underline;}
+.site-nav a{
+  text-decoration: none;
+  &.active, &:hover{border-bottom: 1px solid currentColor;}
+}
 
 ::selection{color:#fff;background:$green;}
 
