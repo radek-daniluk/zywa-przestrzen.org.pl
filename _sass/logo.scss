@@ -97,12 +97,12 @@ $max-logo-width: $max-logo-height*$logo-aspect-ratio;
 footer .u-email{letter-spacing:-1px;}
 
 @media screen and (max-height: 500px) {
-  body.facebook footer.site-footer{display:none;}
+  body.page-facebook footer.site-footer{display:none;}
 }
 
 @media screen and (max-height: 600px) {
   $mini-logo-width:80px;
-  body.facebook{
+  body.page-facebook{
     #logo-a.shrink{max-width:$mini-logo-width;}
     #logo-a.shrink .text, .footer-col-3{display:none;}
   }
@@ -110,7 +110,7 @@ footer .u-email{letter-spacing:-1px;}
 }
 
 @media screen and (max-height: 740px) {
-  body.facebook{
+  body.page-facebook{
     footer.site-footer{padding: 5px 0 0 0;}
     .footer-col-wrapper{font-size:14px;}
     .footer-col-1, .footer-col-3{padding-left:5px;margin-bottom:5px;}
@@ -124,5 +124,5 @@ footer .u-email{letter-spacing:-1px;}
   }
 }
 @media screen and (max-width: 320px) {
-  body.facebook .page-content .wrapper{padding-right:7px;padding-left:7px;}
+  body.page-facebook .page-content .wrapper{padding-right:7px;padding-left:7px;}
 }

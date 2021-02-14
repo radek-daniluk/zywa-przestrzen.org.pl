@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body{% if page.layout == 'page-facebook' %} class='facebook'{% endif %}>
+  <body class={{ page.layout }}>
     {% if page.layout == 'page-facebook' %}
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/all.js#xfbml=1&version=v4.0&appId=574839779927509&autoLogAppEvents=1"></script>
@@ -16,7 +16,7 @@
           <div class="wrapper">
             {{ content }}
           </div>
-<!-- 
+          <!--
           {%- include aside-menu.html -%}
           {%- include aside-ads.html -%} -->
         </main>
