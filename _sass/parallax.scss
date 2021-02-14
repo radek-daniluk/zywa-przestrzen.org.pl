@@ -40,7 +40,7 @@
 .site-header{min-height:auto;}
 html{overflow:hidden;}
 
-.post{
+.post, .page-main main.page-content>.wrapper{
   background:rgba(253,253,253,0.9);
   box-shadow:0 0 20px 20px rgba(253,253,253,0.9);
   padding-bottom:30px;
