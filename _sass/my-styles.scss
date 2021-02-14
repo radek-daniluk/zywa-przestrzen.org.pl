@@ -9,13 +9,15 @@ h1,h2,h3,h4,h5,h6,header,footer{
 
 header.site-header{position:-webkit-sticky;position:sticky;top:0;background-color:rgba(255,255,255,.9);
   z-index:10;
-  border-top: 0;border-bottom: 5px solid;
-  border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
+  border-top: 0;border-bottom: 2px solid #777;
+  border-color: #666;
+  // border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
   box-shadow:0 0 10px 1px #888;
 }
 
-footer.site-footer{border-top: 5px solid;border-bottom: 5px solid;
-  border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
+footer.site-footer{border-top: 2px solid;border-bottom: 2px solid;
+  border-color: #777;
+  // border-image: linear-gradient(to right, $red 33%, $green 33%, $green 67%, $blue 67%) 5;
   background:rgba(253,253,253,0.9);
   box-shadow:0 0 10px 1px #888;
 }
@@ -159,6 +161,8 @@ body.page-main main .wrapper{
     padding-left:30px;
     padding-right:30px;
     padding-bottom: 30px;
+
+    &:first-of-type{text-align: center;padding-top: 60px;}
   }
 }
 
