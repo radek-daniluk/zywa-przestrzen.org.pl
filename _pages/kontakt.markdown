@@ -14,12 +14,6 @@ permalink: /kontakt/
 |REGON | 383690568 |
 
 
-|<span class="icon-location">Siedziba</span>    | 22-122 Sarniak |
-|Gmina        | Leśniowice |
-|Powiat       | chełmski |
-|Województwo  | lubelskie |
-
-|<span class="icon-location">Oddział</span>       | 09-300 Żuromin |
-|Gmina        | Żuromin |
-|Powiat       | żuromiński |
-|Województwo  | mazowieckie |
+| <span class="icon-location">Siedziba</span>    | |
+| Bryńsk  |  |
+| 13-230 Lidzbark | |
