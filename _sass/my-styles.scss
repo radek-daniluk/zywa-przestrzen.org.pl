@@ -153,19 +153,6 @@ body.page-main main .wrapper{
     padding-top: 30px;
     padding-bottom: 30px;
     text-transform: uppercase;
-    position:relative;
-    &>span{
-      &:before{
-        position:absolute;
-        content: url('./img/arrow-right.png');
-        transform:translateX(-140px);
-      }
-      &:after{
-        position:absolute;
-        content: url('./img/arrow-left.png');
-        transform:translateX(15px);
-      }
-    }
   }
 
   &>p{
