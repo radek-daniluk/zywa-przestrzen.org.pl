@@ -30,6 +30,8 @@ $logo-transiton-duration: 0.8s;
   @include width-transition($logo-transiton-duration);
 
   text-align:center;
+
+  margin-bottom: 30px;
 }
 @keyframes fadeIn {0% {opacity:0;} 80% {opacity:0;} 100% {opacity: 1;}}
 
@@ -37,11 +39,15 @@ $logo-transiton-duration: 0.8s;
   padding-right:10px;
   width:110px;
 
+  margin-bottom: 0;
+
   #logowrap{width:100px;
     div.logoname{opacity:0;transition: opacity 1s;}
   }
   .logo0{opacity:1;transition: opacity 1s;}
 }
+
+.site-nav{margin-bottom: 30px;}
 
 
 $max-logo-height: 80vh;
