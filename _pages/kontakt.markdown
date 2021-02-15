@@ -14,12 +14,12 @@ permalink: /kontakt/
 |REGON | 383690568 |
 
 
-|<span class="icon-location">Siedziba</span>    | 13-230 Bryńsk |
-|Gmina        | Lidzbark |
+|<span class="icon-location">Siedziba</span>    | |
+| Bryńsk | 13-230 Lidzbark |
 |Powiat       | działdowski |
 |Województwo  | warmińsko-mazurskie |
 
-|<span class="icon-location">Oddział</span>       | 09-300 Żuromin |
-|Gmina        | Żuromin |
+|<span class="icon-location">Oddział</span>       |  |
+| Żuromin | |
 |Powiat       | żuromiński |
 |Województwo  | mazowieckie |
