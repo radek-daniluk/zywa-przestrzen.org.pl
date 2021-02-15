@@ -183,8 +183,11 @@ body.page-main main .wrapper{
     width:94vw;
   }
   .description{
-    p{margin-bottom: 0;}
-    // width:100%;
+    display:flex;
+    align-items:center;
+
+    .description-wrapper{margin:auto;}
+    p{margin:0}
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 30px;
@@ -214,13 +217,17 @@ body.page-main main .wrapper{
       width:48%;
     }
     .description{
-      width: calc(49% - (30px * 2));
+      width: calc(49% - 30px);
+      padding-left: 0;
+      padding-right: 30px;
     }
 
     &:nth-child(even){
       .img {order: 10;}
       .description{
         text-align: right;
+        padding-left: 30px;
+        padding-right: 0;
       }
     }
   }
