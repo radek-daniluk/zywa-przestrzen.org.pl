@@ -15,11 +15,11 @@ permalink: /kontakt/
 
 
 |<span class="icon-location">Siedziba</span>    | |
-| Bryńsk | 13-230 Lidzbark |
+| <strong>Bryńsk</strong> | 13-230 Lidzbark |
 |Powiat       | działdowski |
 |Województwo  | warmińsko-mazurskie |
 
 |<span class="icon-location">Oddział</span>       |  |
-| Żuromin | |
+| <strong>Żuromin</strong> | 09-300 Żuromin |
 |Powiat       | żuromiński |
 |Województwo  | mazowieckie |
