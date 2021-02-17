@@ -39,7 +39,7 @@ plugins:
 header_pages:
   - index.html
   - _pages/aktualnosci.markdown
-  - _pages/projekty.markdown
+  - _pages/projekty-1.md
   - _pages/o-nas.markdown
   - _pages/oferta.md
   - _pages/kontakt.markdown
