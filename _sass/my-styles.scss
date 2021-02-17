@@ -167,7 +167,7 @@ body.page-main main .wrapper{
     font-size:1.12em;
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 90px;
     margin-bottom:30px;
     border-bottom: 1px solid #777;
     max-width:90vw;
@@ -283,3 +283,10 @@ iframe.main-page {
   display:block;
   margin: 0 auto;
 }
+
+a.alone{
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+}
+a.big{font-size: 1.2em;}
