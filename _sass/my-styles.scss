@@ -158,13 +158,25 @@ body.page-main main .wrapper{
     max-width: calc(800px - (30px * 2));
     margin:auto;
     text-align: left;
-    padding-left:30px;
-    padding-right:30px;
+    // padding-left:30px;
+    // padding-right:30px;
     padding-bottom: 30px;
+  }
 
-    &:first-of-type{text-align: center;padding-top: 60px; padding-bottom: 60px;}
+  p.invitation{
+    font-size:1.12em;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom:30px;
+    border-bottom: 1px solid #777;
+    max-width:90vw;
+  }
+  @media (min-width: 630px) {
+    p.invitation{max-width:570px;}
   }
 }
+
 
 .main-tile-wrapper {
   display: flex;
@@ -212,6 +224,7 @@ body.page-main main .wrapper{
     flex-direction: row;
     width:100%;
     max-width: 1350px;
+    justify-content: center;
 
     .img{
       width:48%;
@@ -220,6 +233,7 @@ body.page-main main .wrapper{
       width: calc(49% - 30px);
       padding-left: 0;
       padding-right: 30px;
+      max-width:400px;
     }
 
     &:nth-child(even){
@@ -234,7 +248,7 @@ body.page-main main .wrapper{
 }
 
 .placeholder-wrapper {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 .placeholder{
