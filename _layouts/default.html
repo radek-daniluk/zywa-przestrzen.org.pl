@@ -25,6 +25,7 @@
       </div>
 
     </div>
+    {% include cookie-consent.html %}
     <button onclick='backToTop()' id='backToTopButton' title='Do góry' class='icon-up'></button>
     {% if page.layout == 'page-facebook' %}
       <script src="{{ "/assets/loadFacebook.js" | relative_url }}"></script>
