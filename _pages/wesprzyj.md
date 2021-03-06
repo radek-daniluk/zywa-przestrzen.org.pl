@@ -2,7 +2,7 @@
 layout: page
 title: Wesprzyj
 ---
-
+![Wesprzyj fundację](assets/wesprzyj.png)
 
 Jest mnóstwo możliwości:
 
