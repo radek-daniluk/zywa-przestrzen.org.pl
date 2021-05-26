@@ -3,6 +3,10 @@ layout: page
 title: Projekty
 permalink: /projekty/
 ---
+
+
+
+
 ![Wielki człowiek w małym domu](/assets/img/600/000.png)
 
 Projekt dotyczący tworzenia domu, który:
