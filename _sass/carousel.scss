@@ -92,7 +92,7 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
-  height: 36px;
+  height: 46px;
   overflow: hidden;
 }
 
@@ -119,31 +119,6 @@ img {
   font-size: 12px;
   line-height: 16px;
   color: #c6c5c6;
-}
-
-.time {
-  font-size: 12px;
-  line-height: 16px;
-  color: #a5a5a5;
-  font-weight: 500;
-  margin-left: auto;
-}
-
-.progress-bar {
-  height: 3px;
-  width: 100%;
-  background-color: #e9efff;
-  border-radius: 2px;
-  overflow: hidden;
-}
-
-.progress {
-  display: block;
-  position: relative;
-  width: 60%;
-  height: 100%;
-  background-color: #2992dc;
-  border-radius: 6px;
 }
 
 .info-area {
