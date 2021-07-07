@@ -233,7 +233,7 @@ a.arrow:hover:before{transform: translate(-20px, -50%) scale(.5);}
     }
     .description{
       width: calc(49% - 30px);
-      padding-left: 0;
+      padding-left: 30px;
       padding-right: 30px;
       max-width:400px;
     }
@@ -242,8 +242,6 @@ a.arrow:hover:before{transform: translate(-20px, -50%) scale(.5);}
       .img {order: 10;}
       .description{
         text-align: right;
-        padding-left: 30px;
-        padding-right: 0;
       }
     }
   }

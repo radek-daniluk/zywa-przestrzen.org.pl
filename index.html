@@ -3,11 +3,55 @@ layout: page-main
 title-menu: Główna
 
 ---
-<p class="invitation">Dobrze, że jesteś.<br>
-  Fundacja Żywa Przestrzeń <br>
-  działa na TWOJĄ RZECZ. <br>
-  Sam zobacz:</p>
+
+<h2 class="arrow-both">Realizowane projekty</h2>
+
+<div class="carousel-outer">
+<div class="carousel-container">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+  <div class="cards">
+    <label class="card" for="item-1" id="song-1">
+      <img src="./assets/img/600/proj-01-edu.webp" alt="edukacja domowa">
+    </label>
+    <label class="card" for="item-2" id="song-2">
+      <img src="./assets/img/600/proj-02-foto.webp" alt="konkurs foto">
+    </label>
+    <label class="card" for="item-3" id="song-3">
+      <img src="./assets/img/600/proj-03-dom.webp" alt="wielki człowiek w małym domu">
+    </label>
+  </div>
+  <div class="player">
+    <div class="upper-part">
+      <div class="info-area" id="test">
+        <label class="song-info" id="song-info-1">
+          <div class="title">Edukacja domowa</div>
+          <div class="sub-line">
+            <div class="subtitle">Kot tok Kot tok Kot tok Kot tok Kot tok Kot tok </div>
+          </div>
+        </label>
+        <label class="song-info" id="song-info-2">
+          <div class="title">Konkurs fotograficzny</div>
+          <div class="sub-line">
+            <div class="subtitle">Jakiś opis tutej</div>
+          </div>
+        </label>
+        <label class="song-info" id="song-info-3">
+          <div class="title">Wielki człowiek w małym domu</div>
+          <div class="sub-line">
+            <div class="subtitle">Zajebiste domy</div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 <h2 class="arrow-both">Przestrzeń działania</h2>
+
+
 
 <div class="main-tile-wrapper">
   <div class="main-tile">
@@ -17,10 +61,10 @@ title-menu: Główna
           <source type="image/webp" srcset="
             ./assets/img/600/001.webp 600w,
             ./assets/img/300/001.webp 300w">
-          <source type="image/png" srcset="
-            ./assets/img/600/001.png 600w,
-            ./assets/img/300/001.png 300w">
-          <img src="./assets/img/600/001.png" alt="Żywa przestrzeń">
+          <source type="image/jpg" srcset="
+            ./assets/img/600/001.jpg 600w,
+            ./assets/img/300/001.jpg 300w">
+          <img src="./assets/img/600/001.jpg" alt="Żywa przestrzeń">
         </picture>
         </div>
     </div>
@@ -36,33 +80,12 @@ title-menu: Główna
       <div class="placeholder" style="padding-top: 80%;">
         <picture>
           <source type="image/webp" srcset="
-            ./assets/img/600/002.webp 600w,
-            ./assets/img/300/002.webp 300w">
-          <source type="image/png" srcset="
-            ./assets/img/600/002.png 600w,
-            ./assets/img/300/002.png 300w">
-          <img src="./assets/img/600/002.png" loading="lazy" alt="Żywa Przestrzeń Zdrowia">
-        </picture>
-      </div>
-    </div>
-    <div class="description">
-      <div class="descr-wrapper">
-        <p>Żywa Przestrzeń Zdrowia to inicjatywa Fundacji dedykowana osobom, które zmagają się z&nbsp;danym problemem zdrowotnym, chorobą , czy też niepełnosprawnością i&nbsp;dążą wszelkimi możliwymi, naturalnymi sposobami do odzyskania pełni zdrowia. CEL - PEŁNIA ZDROWIA.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="main-tile">
-    <div class="img placeholder-wrapper" style="max-width:638px;">
-      <div class="placeholder" style="padding-top: 80%;">
-        <picture>
-          <source type="image/webp" srcset="
             ./assets/img/600/003.webp 600w,
             ./assets/img/300/003.webp 300w">
-          <source type="image/png" srcset="
-            ./assets/img/600/003.png 600w,
-            ./assets/img/300/003.png 300w">
-          <img src="./assets/img/600/002.png" loading="lazy" alt="Żywa Przestrzeń Kształtowania szczęśliwego człowieka">
+          <source type="image/jpg" srcset="
+            ./assets/img/600/003.jpg 600w,
+            ./assets/img/300/003.jpg 300w">
+          <img src="./assets/img/600/003.jpg" loading="lazy" alt="Żywa Przestrzeń Kształtowania szczęśliwego człowieka">
         </picture>
       </div>
     </div>
@@ -78,48 +101,39 @@ title-menu: Główna
       <div class="placeholder" style="padding-top: 80%;">
         <picture>
           <source type="image/webp" srcset="
-            ./assets/img/600/004.webp 600w,
-            ./assets/img/300/004.webp 300w">
-          <source type="image/png" srcset="
-            ./assets/img/600/004.png 600w,
-            ./assets/img/300/004.png 300w">
-          <img src="./assets/img/600/002.png" loading="lazy" alt="Żywa Przestrzeń Edukacji domowej">
+            ./assets/img/600/002.webp 600w,
+            ./assets/img/300/002.webp 300w">
+          <source type="image/jpg" srcset="
+            ./assets/img/600/002.jpg 600w,
+            ./assets/img/300/002.jpg 300w">
+          <img src="./assets/img/600/002.jpg" loading="lazy" alt="Żywa Przestrzeń Zdrowia">
         </picture>
       </div>
     </div>
     <div class="description">
       <div class="descr-wrapper">
-        <p>Jednym z&nbsp;celów statutowych Fundacji jest wspieranie edukacji domowej. Realizujemy to poprzez wsparcie merytoryczne i&nbsp;metodyczne rodzin, współpracę ze szkołami w&nbsp;celu wypracowania standardu szkół przyjaznych Edukacji Domowej</p>
+        <p>Żywa Przestrzeń Zdrowia to inicjatywa Fundacji dedykowana osobom, które zmagają się z&nbsp;danym problemem zdrowotnym, chorobą , czy też niepełnosprawnością i&nbsp;dążą wszelkimi możliwymi, naturalnymi sposobami do odzyskania pełni zdrowia. CEL - PEŁNIA ZDROWIA.</p>
       </div>
     </div>
   </div>
-</div>
-
-<h2 class="arrow-both">Realizowane projekty</h2>
-
-<div class="main-tile-wrapper">
 
   <div class="main-tile">
     <div class="img placeholder-wrapper" style="max-width:638px;">
       <div class="placeholder" style="padding-top: 80%;">
         <picture>
           <source type="image/webp" srcset="
-            ./assets/img/600/000.webp 600w,
-            ./assets/img/300/000.webp 300w">
-          <source type="image/png" srcset="
-            ./assets/img/600/000.png 600w,
-            ./assets/img/300/000.png 300w">
-          <img src="./assets/img/600/002.png" loading="lazy" alt="Wielki człowiek w małym domu">
+            ./assets/img/600/004.webp 600w,
+            ./assets/img/300/004.webp 300w">
+          <source type="image/jpg" srcset="
+            ./assets/img/600/004.jpg 600w,
+            ./assets/img/300/004.jpg 300w">
+          <img src="./assets/img/600/004.jpg" loading="lazy" alt="Żywa Przestrzeń Edukacji domowej">
         </picture>
       </div>
     </div>
     <div class="description">
       <div class="descr-wrapper">
-        <ul>Projekt dotyczący tworzenia domu, który:
-          <li>Nie wpływa negatywnie na środowisko naturalne</li>
-          <li>Odpowiada naszym potrzebom, a&nbsp;dzięki niskim kosztom budowy i&nbsp;eksploatacji zapewnia nam to, co w&nbsp;życiu najważniejsze – CZAS</li>
-        </ul>
-        <a href="https://wielki-czlowiek-w-malym-domu.blogspot.com/" class="arrow">Zobacz więcej…</a>
+        <p>Jednym z&nbsp;celów statutowych Fundacji jest wspieranie edukacji domowej. Realizujemy to poprzez wsparcie merytoryczne i&nbsp;metodyczne rodzin, współpracę ze szkołami w&nbsp;celu wypracowania standardu szkół przyjaznych Edukacji Domowej</p>
       </div>
     </div>
   </div>
@@ -140,10 +154,10 @@ title-menu: Główna
           <source type="image/webp" srcset="
             ./assets/img/600/005.webp 600w,
             ./assets/img/300/005.webp 300w">
-          <source type="image/png" srcset="
-            ./assets/img/600/005.png 600w,
-            ./assets/img/300/005.png 300w">
-          <img src="./assets/img/600/002.png" loading="lazy" alt="Żywa przestrzeń bank dobrych pomysłów">
+          <source type="image/jpg" srcset="
+            ./assets/img/600/005.jpg 600w,
+            ./assets/img/300/005.jpg 300w">
+          <img src="./assets/img/600/005.jpg" loading="lazy" alt="Żywa przestrzeń bank dobrych pomysłów">
         </picture>
       </div>
     </div>
