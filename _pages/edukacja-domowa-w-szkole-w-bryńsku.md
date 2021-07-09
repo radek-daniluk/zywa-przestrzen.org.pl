@@ -36,3 +36,5 @@ Oto co już udało nam się wypracować, uznajemy, że oferta na ten moment jest
 **KONTAKT:** Agata Grzywińska, **730084213**
 
 DOKUMENTY DO POBRANIA:
+
+* Oświadczenie o zapewnieniu dziecku warunków umożliwiających realizację podstawy programowej [PDF](assets/oświadczenie-o-zapewnieniu-dziecku-warunków-umożliwiających-realizację-podstawy-programowej.pdf)
