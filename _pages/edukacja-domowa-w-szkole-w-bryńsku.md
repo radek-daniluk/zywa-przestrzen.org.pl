@@ -4,7 +4,7 @@ title: EDUKACJA DOMOWA W SZKOLE W BRYŃSKU
 permalink: /edukacjadomowa/
 ---
 
-![](/assets/proj-01-edu.jpg)
+![](/assets/12.png)
 
 **EDUKACJA DOMOWA**
 
