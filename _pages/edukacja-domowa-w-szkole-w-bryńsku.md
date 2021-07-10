@@ -3,8 +3,7 @@ layout: page
 title: EDUKACJA DOMOWA W SZKOLE W BRYŃSKU
 permalink: /edukacjadomowa/
 ---
-
-![](/assets/proj-01-edu.jpg)
+![](/assets/12.png)
 
 **EDUKACJA DOMOWA**
 
@@ -15,8 +14,6 @@ To wg najprostszej definicji nauczanie dzieci poza systemem edukacji szkolnej, z
 Wspierając Edukację Domową jako Fundacja Żywa Przestrzeń pozyskaliśmy lokalnych partnerów – Szkołę Podstawową w Bryńsku oraz Gminę do tego, aby stworzyć model szkoły prawdziwie przyjaznej edukacji domowej. Bardzo zależy nam, aby zrobić to dobrze, to jest wypracować bogatą ofertę współpracy Fundacji, szkoły i Gminy z rodzinami, które zdecydują się do szkoły w Bryńsku zapisać.
 
 Oto co już udało nam się wypracować, uznajemy, że oferta na ten moment jest jeszcze otwarta, jesteśmy gotowi na wszystkie sugestie z Państwa strony:
-
-
 
 **OFERTA SP BRYŃSK DLA UCZNIÓW KSZTAŁCONYCH DOMOWO**
 
@@ -30,7 +27,7 @@ Oto co już udało nam się wypracować, uznajemy, że oferta na ten moment jest
 * Możliwość **bezpłatnego zbadania kompetencji społecznych, inteligencji wielorakich dziecka, a także postaw rodzicielskich rodzica** w oparciu o autorskie metody wypracowane przez Fundację Żywa Przestrzeń
 * **Dofinansowanie w wysokości 1000 zł na wakacje dla dziecka** w dowolnym ośrodku na terenie *Gminy Lidzbark*
 * Niezwykłe **walory przyrodnicze i turystyczne regionu** - wieś Bryńsk to znajduje się na terenie Górznieńsko-Lidzbarskiego Parku Krajobrazowego, wokół kilka rezerwatów, kilkanaście jezior i ogromne połacie lasu
- 
+
 **ZAPISZ SIĘ JUŻ DZIŚ!**
 
 **KONTAKT:** Agata Grzywińska, **730084213**
@@ -38,3 +35,6 @@ Oto co już udało nam się wypracować, uznajemy, że oferta na ten moment jest
 DOKUMENTY DO POBRANIA:
 
 * Oświadczenie o zapewnieniu dziecku warunków umożliwiających realizację podstawy programowej [PDF](/assets/oświadczenie-o-zapewnieniu-dziecku-warunków-umożliwiających-realizację-podstawy-programowej.pdf)
+* Wniosek o przyjęcie dziecka do szkoły (jeśli dziecko aplikuje do innej szkoły niż ta do której aktualnie uczęszcza) [PDF](assets/wniosek-rodzica-opiekuna-prawnego-o-przyjęcie-dziecka-do-szkoły.pdf)
+* Wniosek o zezwolenie na spełnianie obowiązku szkolnego poza szkołą [PDF](assets/wniosek-rodzica-opiekunów-prawnych-o-zezwolenie-na-spełnianie-obowiązku-szkolnego-poza-szkołą.pdf)
+* Zobowiązanie rodziców do przystępowania dziecka do egzaminów klasyfikacyjnych [PDF](assets/zobowiązanie-do-przystępowania-przez-dziecko-do-rocznych-egzaminów-klasyfikacyjnych.pdf)
