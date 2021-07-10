@@ -35,6 +35,6 @@ Oto co już udało nam się wypracować, uznajemy, że oferta na ten moment jest
 DOKUMENTY DO POBRANIA:
 
 * Oświadczenie o zapewnieniu dziecku warunków umożliwiających realizację podstawy programowej [PDF](/assets/oświadczenie-o-zapewnieniu-dziecku-warunków-umożliwiających-realizację-podstawy-programowej.pdf)
-* Wniosek o przyjęcie dziecka do szkoły (jeśli dziecko aplikuje do innej szkoły niż ta do której aktualnie uczęszcza) PDF
-* Wniosek o zezwolenie na spełnianie obowiązku szkolnego poza szkołą PDF
-* Zobowiązanie rodziców do przystępowania dziecka do egzaminów klasyfikacyjnych PDF
+* Wniosek o przyjęcie dziecka do szkoły (jeśli dziecko aplikuje do innej szkoły niż ta do której aktualnie uczęszcza) [PDF](assets/wniosek-rodzica-opiekuna-prawnego-o-przyjęcie-dziecka-do-szkoły.pdf)
+* Wniosek o zezwolenie na spełnianie obowiązku szkolnego poza szkołą [PDF](assets/wniosek-rodzica-opiekunów-prawnych-o-zezwolenie-na-spełnianie-obowiązku-szkolnego-poza-szkołą.pdf)
+* Zobowiązanie rodziców do przystępowania dziecka do egzaminów klasyfikacyjnych [PDF](assets/zobowiązanie-do-przystępowania-przez-dziecko-do-rocznych-egzaminów-klasyfikacyjnych.pdf)
