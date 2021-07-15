@@ -300,6 +300,10 @@ div.projects-wrapper{
 }
 
 div.project-item{
+  margin: 50px auto;
+  &:hover{
+    background: #ddd;
+  }
   img.project-img-small{
     width: 400px;
     height: 300px;

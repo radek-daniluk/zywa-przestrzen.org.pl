@@ -5,6 +5,7 @@ layout: default
 
   <div class="projects-wrapper">
     {% for page in site.pages %}
+    {% if page.project %}
     <div class="project-item">
       <a href="{{ page.permalink | prepend: site.baseurl }}">
         {%- if page.head-image -%}
@@ -13,6 +14,7 @@ layout: default
         {{page.title}}
       </a>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 
