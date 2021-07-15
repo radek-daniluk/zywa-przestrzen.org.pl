@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="projekty">
+
+  <div class="projects-wrapper">
+    {% for page in site.pages %}
+    <div class="project-item">
+      <a href="{{ page.permalink | prepend: site.baseurl }}">
+        {%- if page.head-image -%}
+        <img class='project-img-small' src='{{ page.head-image | relative_url }}' alt='{{ page.title }}'>
+        {%- endif -%}
+        {{page.title}}
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <hr>
+
+
+  <div class="projekty-content">
+    {{ content }}
+  </div>
+
+</article>
