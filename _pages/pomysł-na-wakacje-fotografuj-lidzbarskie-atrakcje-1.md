@@ -16,6 +16,6 @@ Fundacja Żywa Przestrzeń zaprasza do udziału w konkursie ”POMYSŁ NA WAKACJ
 
 **ZAPRASZAMY DO WSPÓLNEJ ZABAWY!**
 
-plakat
+[plakat](assets/plakat-pomsl-na-wakacje-fotografuj-lidzbarskie-atrakcje.pdf)
 
 [regulamin](assets/regulamin-konkursu-pomysł-na-wakacje-fotografuj-lidzbarskie-atrakcje.pdf)
