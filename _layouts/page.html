@@ -4,6 +4,9 @@ layout: default
 <article class="post">
 
   <div class="post-content">
+    {% if page.head-image %}
+    <img class='page-head-image' src='{{ page.head-image | relative_url }}' alt='{{ page.title }}'>
+    {% endif page.head-image %}
     {{ content }}
   </div>
 

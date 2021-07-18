@@ -31,7 +31,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Project", name: "project", widget: "boolean", default: true, required: false}
       - {label: "Slider", name: "slider", widget: "boolean", default: false, required: false}
+      - {label: "Order", name: "order", widget: "number", default: 10, required: true}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Redirect link", name: "redirect-link", widget: "string", required: false}
       - {label: "Head Image", name: "head-image", widget: "image", required: false}
       # - {label: "Short text", name: "short-text", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

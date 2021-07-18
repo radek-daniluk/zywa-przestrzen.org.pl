@@ -5,7 +5,6 @@ permalink: /edukacjadomowa/
 project: true
 head-image: /assets/proj-01-edu.jpg
 ---
-![](/assets/12.png)
 
 **EDUKACJA DOMOWA**
 
