@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: projekty
 title: Projekty
 permalink: /projekty/
 ---
-![]()
-
 
 
 ![Wielki człowiek w małym domu](/assets/img/600/proj-02-dom.jpg)

@@ -1,14 +1,27 @@
-<div class="projects-wrapper">
-  {% for page in site.pages %}
+{% assign sites = site.pages %}
+{% assign sorted_projects = sites | sort: 'permalink' %}
+{% for page in sorted_projects %}
   {% if page.project %}
-  <div class="project-item">
-    <a href="{{ page.permalink | prepend: site.baseurl }}">
-      {%- if page.head-image -%}
-      <img class='project-img-small' src='{{ page.head-image | relative_url }}' alt='{{ page.title }}'>
-      {%- endif -%}
-    </a>
-    {{ page.excerpt }}
-  </div>
+
+    {% if page.redirect-link %}
+      {% assign link = page.redirect-link %}
+    {% elsif page.permalink %}
+      {% assign link = page.permalink %}
+    {% else %}
+      {% assign link = page.slug %}
+    {% endif %}
+
+    {% assign content-size = page.content | size %}
+    {% assign max-content = 460 %}
+    {% if content-size > max-content %}
+      {% assign content-excerpt = page.content | slice: 0, max-content | append:'…' %}
+    {% else %}
+      {% assign content-excerpt = page.content %}
+    {% endif %}
+    {% assign excerpt = content-excerpt | markdownify %}
+
+    {% include main-tile.html head-image=page.head-image img-alt=page.title description=excerpt href=link %}
   {% endif %}
-  {% endfor %}
-</div>
+{% endfor %}
+
+{% include main-tile-wielki-czlowiek-w-malym-domu.html %}

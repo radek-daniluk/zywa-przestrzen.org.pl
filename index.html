@@ -11,7 +11,7 @@ title-menu: Główna
 
 <div class="main-tile-wrapper">
 
-  {% assign sites = site.pages | where: title, "dupa" %}
+  {% assign sites = site.pages %}
   {% assign sorted_projects = sites | sort: 'permalink' %}
   {% for page in sorted_projects %}
     {% if page.project %}
