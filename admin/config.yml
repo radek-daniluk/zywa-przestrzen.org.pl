@@ -35,5 +35,5 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
       - {label: "Redirect link", name: "redirect-link", widget: "string", required: false}
       - {label: "Head Image", name: "head-image", widget: "image", required: false}
-      # - {label: "Short text", name: "short-text", widget: "text", required: false}
+      - {label: "Short text", name: "short-text", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

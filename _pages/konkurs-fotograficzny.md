@@ -4,7 +4,7 @@ title: KONKURS FOTOGRAFICZNY
 project: true
 slider: true
 permalink: /konkurs-fotograficzny-lidzbarskie/
-head-image: /assets/a54cca49-40c1-4959-b4e9-0484ccb8bf01.png
+head-image: /assets/proj-03-foto.png
 ---
 Fundacja Żywa Przestrzeń zaprasza do udziału w konkursie ”POMYSŁ NA WAKACJE - FOTOGRAFUJ LIDZBARSKIE ATRAKCJE”.
 
@@ -16,4 +16,4 @@ Fundacja Żywa Przestrzeń zaprasza do udziału w konkursie ”POMYSŁ NA WAKACJ
 
 ZAPRASZAMY DO WSPÓLNEJ ZABAWY!
 
-PLAKAT KONKURSU
+[PLAKAT KONKURSU](/assets/plakat-pomsl-na-wakacje-fotografuj-lidzbarskie-atrakcje.pdf)

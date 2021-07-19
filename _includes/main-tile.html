@@ -1,20 +1,37 @@
 <div class="main-tile">
-  <div class="img placeholder-wrapper" style="max-width:638px;">
-    <div class="placeholder" style="padding-top: 80%;">
-      <picture>
-        <source type="image/webp" srcset="
-          ./assets/img/600/{{ include.img-basename }}.webp 600w,
-          ./assets/img/300/{{ include.img-basename }}.webp 300w">
-        <source type="image/jpg" srcset="
-          ./assets/img/600/{{ include.img-basename }}.jpg 600w,
-          ./assets/img/300/{{ include.img-basename }}.jpg 300w">
-        <img src="./assets/img/600/{{ include.img-basename }}.jpg" loading="lazy" alt="{{ include.img-alt }}">
-      </picture>
+
+  {% if include.head-image %}
+    {% assign img-name = include.head-image | split: '/' | last %}
+    {% assign img-ext = img-name | split: '.' | last %}
+    {% assign img-name-size = img-name | size %}
+    {% assign img-ext-size = img-ext | size %}
+    {% assign img-basename-size = img-name-size | minus: img-ext-size | minus: 1 %}
+    {% assign img-basename = img-name | slice: 0, img-basename-size %}
+
+    <div class="img placeholder-wrapper" style="max-width:638px;">
+
+        <div class="placeholder" style="padding-top: 80%;">
+          <picture>
+            <source type="image/webp" srcset="
+              /assets/img/600/{{ img-basename }}.webp 600w,
+              /assets/img/300/{{ img-basename }}.webp 300w">
+            <source type="image/jpg" srcset="
+              /assets/img/600/{{ img-basename }}.jpg 600w,
+              /assets/img/300/{{ img-basename }}.jpg 300w">
+            <img src="{{ include.head-image }}" loading="lazy" alt="{{ include.img-alt }}">
+          </picture>
+        </div>
     </div>
-  </div>
+  {% endif %}
+
   <div class="description">
     <div class="descr-wrapper">
       {{ include.description }}
+      {% if include.href %}
+        <div class="arrow-link-wrappper">
+          <a href="{{ include.href }}" class="arrow">Zobacz więcej…</a>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
