@@ -1,0 +1,20 @@
+<div class="main-tile">
+  <div class="img placeholder-wrapper" style="max-width:638px;">
+    <div class="placeholder" style="padding-top: 80%;">
+      <picture>
+        <source type="image/webp" srcset="
+          ./assets/img/600/{{ include.img-basename }}.webp 600w,
+          ./assets/img/300/{{ include.img-basename }}.webp 300w">
+        <source type="image/jpg" srcset="
+          ./assets/img/600/{{ include.img-basename }}.jpg 600w,
+          ./assets/img/300/{{ include.img-basename }}.jpg 300w">
+        <img src="./assets/img/600/{{ include.img-basename }}.jpg" loading="lazy" alt="{{ include.img-alt }}">
+      </picture>
+    </div>
+  </div>
+  <div class="description">
+    <div class="descr-wrapper">
+      {{ include.description }}
+    </div>
+  </div>
+</div>

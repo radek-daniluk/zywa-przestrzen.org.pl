@@ -46,6 +46,9 @@ header_pages:
 
 future: true
 
+page_excerpts: true
+excerpt_separator: <!-- excerpt-end -->
+
 pagination:
   enabled: true
   per_page: 2

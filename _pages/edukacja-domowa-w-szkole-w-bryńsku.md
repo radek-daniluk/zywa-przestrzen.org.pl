@@ -9,6 +9,7 @@ head-image: /assets/proj-01-edu.jpg
 **EDUKACJA DOMOWA**
 
 To wg najprostszej definicji nauczanie dzieci poza systemem edukacji szkolnej, za które rodzic lub opiekun bierze odpowiedzialność.
+<!-- excerpt-end -->
 
 **SZKOŁA i GMINA PRZYJAZNA EDUKACJI DOMOWEJ**
 
