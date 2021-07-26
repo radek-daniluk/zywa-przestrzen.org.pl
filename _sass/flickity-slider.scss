@@ -15,7 +15,13 @@
 
 .carousel-cell{
   position: relative;
+  opacity:0.3;
+  transition: opacity .5s;
 }
+
+.carousel-cell.is-selected{
+    opacity: 1;
+  }
 
 a.carousel-link{
   position:absolute;
