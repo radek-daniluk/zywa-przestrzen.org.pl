@@ -3,7 +3,7 @@ layout: page
 title: KONKURS FOTOGRAFICZNY
 project: true
 slider: true
-order: 2
+order: 1
 permalink: /konkurs-fotograficzny-lidzbarskie/
 head-image: /assets/proj-03-foto.png
 ---
