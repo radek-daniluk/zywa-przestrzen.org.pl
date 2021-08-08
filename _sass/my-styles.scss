@@ -243,9 +243,11 @@ a.arrow:hover:before{transform: translate(-20px, -50%) scale(.5);}
     &:nth-child(even){
       .img {order: 10;}
       .description{
-        text-align: right;
         padding-left: 30px;
         padding-right: 0;
+        .arrow-link-wrappper a{
+          float: right;
+        }
       }
     }
   }
